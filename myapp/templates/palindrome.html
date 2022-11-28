@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=parseInt(prompt('enter the number'))
+        var originalnum=num;
+        var reverse=0;
+        while(num>0){
+            // reverse=reverse*10;
+            reverse=(reverse*10)+(num%10);
+            console.log(reverse);
+             num=parseInt(num/10);
+             console.log(num);
+        }
+        if(originalnum==reverse){
+            console.log('palindronme no');
+        }
+        else{
+            console.log('not palindronme no');
+        }
+        
+    </script>
+</body>
+</html>

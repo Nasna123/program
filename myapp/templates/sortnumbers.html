@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x=parseInt(prompt('enter a no'))
+        var y=parseInt(prompt('enter 2 no'))
+        var z=parseInt(prompt('enter 3 no'))
+        if(x>y && x>z){
+            if(y>z){
+                console.log(+x,+y,+z);
+            }
+            else{
+                console.log(+x,+z,+y);
+            }
+        }
+        else if(y>z && y>x){
+            if(z>x){
+                console.log(+y,+z,+x);
+            }
+            else{
+                console.log(+y,+x,+z);
+            }
+        }
+        else{
+            console.log(+z,+x,+y);
+        }
+    </script>
+</body>
+</html>
